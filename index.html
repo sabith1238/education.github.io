@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700|Lato:300,400,400i,700" rel="stylesheet">
+
+    <!--
+    font-family: 'Lato', sans-serif;
+font-family: 'Dosis', sans-serif;
+-->
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: url(bg.jpg);
+        }
+
+        header {
+            min-height: 100px;
+            background-color: #FFD338;
+        }
+
+        .navbarcolor {
+            background-color: #FFD338;
+        }
+
+        .searchcolor {
+            color: white;
+        }
+
+        .hovers a:hover {
+            background-color: #F05C5C;
+            border-radius: 15px;
+        }
+
+        .hovers {
+            font-family: 'Dosis', sans-serif;
+            font-weight: 700;
+            padding: 0px 0px 0px 5px;
+
+        }
+
+        .hovers a {
+            color: white !important;
+            padding: 0px 10px 0px 10px;
+            font-size: 16px;
+        }
+
+        section {
+            background-image: url(cloudsnshit.png);
+            min-height: 980px;
+        }
+
+        .text1 {
+            margin-top: 300px;
+            font-size: 60px;
+            font-family: 'Dosis', sans-serif;
+            font-weight: bold;
+            color: #969696;
+        }
+
+        .text2 {
+            font-size: 38px;
+            color: #1EC0FF;
+            font-family: 'Dosis', sans-serif;
+            font-weight: bold;
+            letter-spacing: 2.5px;
+        }
+
+        .scroll {
+            margin-top: 420px;
+            font-size: 13px;
+            font-family: 'Lato', sans-serif;
+            color: #BBBBBB;
+            font-weight: bold;
+        }
+
+        .scroll img {
+            margin-top: 20px;
+        }
+
+
+        .heading {
+            color: #333333;
+            font-family: 'Dosis', sans-serif;
+            font-weight: bold;
+            margin-top: 100px;
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
+
+
+
+        .card-img-bottom {
+            color: #fff;
+            background: url(570x320.png) center no-repeat;
+            background-size: cover;
+            border-radius: 30px;
+            min-height: 320px;
+            ;
+        }
+
+        .cardtexts {
+            font-family: 'Dosis', sans-serif;
+            letter-spacing: 1.1px;
+            line-height: 1.6;
+        }
+
+
+        .cardbg {
+            background-color: none;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            letter-spacing: 2px;
+
+        }
+
+        .cardbg img {
+            margin-left: 30px;
+        }
+
+
+
+
+        .heading2 {
+            color: #333333;
+            font-family: 'Dosis', sans-serif;
+            font-weight: bold;
+            margin-top: 100px;
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
+
+
+
+        .cardround {
+            border-radius: 20px;
+            font-family: 'Lato', sans-serif;
+
+        }
+
+
+
+
+
+
+        .overlay {
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            right: 0;
+            background-color: #008CBA;
+            overflow: hidden;
+            width: 16rem;
+            height: 0;
+            transition: .5s ease;
+            border-radius: 20px;
+            opacity: .5;
+        }
+
+        .list1:hover .overlay {
+            bottom: 0;
+            height: 100%;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light navbarcolor ">
+                        <a class="navbar-brand" href="#"><img src="giraffelogo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item hovers active mr-2 ml-3">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item hovers  mr-2">
+                                    <a class="nav-link" href="#">Courses</a>
+                                </li>
+                                <li class="nav-item hovers mr-2">
+                                    <a class="nav-link" href="#">Events</a>
+                                </li>
+                                <li class="nav-item hovers mr-2">
+                                    <a class="nav-link" href="#">Teachers</a>
+                                </li>
+                                <li class="nav-item hovers mr-2">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item hovers mr-2">
+                                    <a class="nav-link" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item hovers mr-2">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+
+                                <button class="btn navbarcolor my-2 my-sm-0" type="submit"><i class="fas fa-user searchcolor  "></i></button>
+
+                                <button class="btn navbarcolor my-2 my-sm-0" type="submit"><i class="fas fa-search searchcolor  "></i></button>
+                                <input class="form-control mr-sm-2 navbarcolor" type="search" aria-label="Search">
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container" style="min-height: 980px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text1 text-center">
+                        1920x980
+                    </div>
+                    <div class="text2 text-center">
+                        Tomorrow land is for Kids Always
+                    </div>
+                    <div class="scroll text-center">
+                        SCROLL <br>
+                        <img src="arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section2>
+        <div class="container" style="min-height: 180px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading text-center">
+                        OUR DESIRATION ON KID EDUCATION <br>
+                        <img src="dots.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section2>
+
+    <section3>
+        <div class="container" style="min-height: 473px;">
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <div class="card-block">
+                        <h4 class="card-title cardtexts " style="font-weight: bold;">About Giraffe Schools <br>
+                            <img src="dots.png" alt=""></h4>
+                        <p class="card-text cardtexts ">As a word from our heart, we love to dedicate for Kids the valuable things in Life. A great education is a must for a solid developments in both soul and mind for kids. We go with kids to play, learn, and grow better</p>
+                        <p class="card-text cardtexts ">Duis aute irure dolor in reprehenderit in vouptate velit esse cillum colore eu fugiat nulla pariatur</p>
+                        <a href="#" class="btn"><img src="discovery.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="card-img-bottom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section3>
+
+    <section4>
+        <div class="container-fluid" style="min-height: 511px; background-image: url(blubg.png);">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="heading text-center">
+                                OUR DESIRATION ON KID EDUCATION <br>
+                                <img src="dots.png" alt="">
+                            </div>
+                            <div class="col-lg-12 mr-4">
+                                <div class="row">
+
+                                    <div class="col-lg-3 col-6">
+                                        <div class="cardbg " style="width: 8rem;">
+                                            <img class="card-img-top" src="100x100.png" alt="Card image cap">
+                                            <div class="card-body" style="width:200px;">
+                                                <h5 class="card-title cardbg">Best-For-Kids Programs</h5>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <div class="cardbg" style="width: 8rem;">
+                                            <img class="card-img-top" src="100x100.png" alt="Card image cap">
+                                            <div class="card-body" style="width:200px;">
+                                                <h5 class="card-title cardbg">Kind-Hearted Teachers</h5>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <div class="cardbg" style="width: 8rem;">
+                                            <img class="card-img-top" src="100x100.png" alt="Card image cap">
+                                            <div class="card-body" style="width:200px;">
+                                                <h5 class="card-title cardbg">Inspirational Environment</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <div class="cardbg" style="width: 8rem;">
+                                            <img class="card-img-top" src="100x100.png" alt="Card image cap">
+                                            <div class="card-body" style="width:200px;">
+                                                <h5 class="card-title cardbg">Top School Belong</h5>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section4>
+
+    <section5>
+        <div class="container-fluid" style="min-height: 855px;">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="heading2 text-center">
+                                FEATURED COURSES WE ARE OFFERING <br>
+                                <img src="dots2.png" alt="">
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="card cardround text-center" style="width: 16rem;">
+                                            <div class="card-header text-center" style="background-color: #1EC0FF; border-top-left-radius: 15px;border-top-right-radius: 15px;color: white;">7:00AM - 11:00AM
+                                                <img src="lg1.png" alt="" class="ml-4"></div>
+                                            <img class="card-img-top" src="270x170.png" alt="Card image cap">
+                                            <img src="price1.png" alt="" style="z-index: 1; position: absolute; left: 180px;top: 180px">
+                                            <div class="card-body">
+                                                <h5 class="card-title " style="color: #1EC0FF;letter-spacing: 1.8px;">Art learning</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                            <div class="card-footer bg-transparent" style="border-top: 1px solid #EEEEEE;">Age:5-7 years | Class Size:15</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card cardround text-center" style="width: 16rem;">
+                                            <div class="card-header text-center" style="background-color: #56D47E; border-top-left-radius: 15px;border-top-right-radius: 15px;color: white;">7:00AM - 11:00AM
+                                                <img src="lg2.png" alt="" class="ml-4"></div>
+                                            <img class="card-img-top" src="270x170.png" alt="Card image cap">
+                                            <img src="price2.png" alt="" style="z-index: 1; position: absolute; left: 180px;top: 180px">
+                                            <div class="card-body">
+                                                <h5 class="card-title " style="color: #56D47E;letter-spacing: 1.8px;">Math</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                            <div class="card-footer bg-transparent" style="border-top: 1px solid #EEEEEE;">Age:5-7 years | Class Size:15</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card cardround text-center" style="width: 16rem;">
+                                            <div class="card-header text-center" style="background-color: #F05C5C; border-top-left-radius: 15px;border-top-right-radius: 15px;color: white;">7:00AM - 11:00AM
+                                                <img src="lg3.png" alt="" class="ml-4"></div>
+                                            <img class="card-img-top" src="270x170.png" alt="Card image cap">
+                                            <img src="price3.png" alt="" style="z-index: 1; position: absolute; left: 180px;top: 180px">
+                                            <div class="card-body">
+                                                <h5 class="card-title " style="color: #F05C5C;letter-spacing: 1.8px;">Sciences</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                            <div class="card-footer bg-transparent" style="border-top: 1px solid #EEEEEE;">Age:5-7 years | Class Size:15</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card cardround text-center" style="width: 16rem;">
+                                            <div class="card-header text-center" style="background-color: #FFD338; border-top-left-radius: 15px;border-top-right-radius: 15px;color: white;">7:00AM - 11:00AM
+                                                <img src="lg4.png" alt="" class="ml-4"></div>
+                                            <img class="card-img-top" src="270x170.png" alt="Card image cap">
+                                            <img src="price4.png" alt="" style="z-index: 1; position: absolute; left: 180px;top: 180px">
+                                            <div class="card-body">
+                                                <h5 class="card-title " style="color: #FFD338;letter-spacing: 1.8px;">Environmental Skills</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                            <div class="card-footer bg-transparent" style="border-top: 1px solid #EEEEEE;">Age:5-7 years | Class Size:15</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-success btn-lg btn-block mt-5" style="border-radius: 20px;"><i class="fas fa-plus"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section5>
+
+
+    <section6>
+        <div class="container-fluid" style="min-height: 950px; background-image: url(greenbg.png)">
+            <div class="row">
+                <div class="container">
+                    <div class="col-lg-12">
+                        <div class="heading text-center">
+                            MEMORABLE MOMENTS<br>
+                            <img src="dots.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <ul class="nav justify-content-center mt-3">
+                            <li class="nav-item mr-3 hovers">
+                                <a class="nav-link active" href="#" style="color: white;">All</a>
+                            </li>
+                            <li class="nav-item mr-3 hovers">
+                                <a class="nav-link " href="#" style="color: white;">Courses</a>
+                            </li>
+                            <li class="nav-item mr-3 hovers">
+                                <a class="nav-link " href="#" style="color: white;">Events</a>
+                            </li>
+                            <li class="nav-item  mr-3 hovers">
+                                <a class="nav-link" href="#" style="color: white;">Teachers</a>
+                            </li>
+                            <li class="nav-item mr-3 hovers">
+                                <a class="nav-link " href="#" style="color: white;">Activities</a>
+                            </li>
+                            <li class="nav-item mr-3 hovers">
+                                <a class="nav-link " href="#" style="color: white;">Environment</a>
+                            </li>
+                        </ul>
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-3 mt-5 ">
+                                    <div class="row">
+                                        <div class="list1">
+                                            <a href=""><img src="270x200.png" alt="" style="width:16rem;"></a>
+                                            <div class="overlay">
+                                                <div class="text"><img src="overlay.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-5 ">
+                                    <div class="row">
+                                        <div class="list1">
+                                            <a href=""><img src="270x200.png" alt="" style="width:16rem;"></a>
+                                            <div class="overlay">
+                                                <div class="text"><img src="overlay.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-5 ">
+                                    <div class="row">
+                                        <div class="list1">
+                                            <a href=""><img src="270x200.png" alt="" style="width:16rem;"></a>
+                                            <div class="overlay">
+                                                <div class="text"><img src="overlay.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-5 ">
+                                    <div class="row">
+                                        <div class="list1">
+                                            <a href=""><img src="270x200.png" alt="" style="width:16rem;"></a>
+                                            <div class="overlay">
+                                                <div class="text"><img src="overlay.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-5 ">
+                                    <div class="row">
+                                        <div class="list1">
+                                            <a href=""><img src="270x200.png" alt="" style="width:16rem;"></a>
+                                            <div class="overlay">
+                                                <div class="text"><img src="overlay.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-5 ">
+                                    <div class="row">
+                                        <div class="list1">
+                                            <a href=""><img src="270x200.png" alt="" style="width:16rem;"></a>
+                                            <div class="overlay">
+                                                <div class="text"><img src="overlay.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-5 ">
+                                    <div class="row">
+                                        <div class="list1">
+                                            <a href=""><img src="270x200.png" alt="" style="width:16rem;"></a>
+                                            <div class="overlay">
+                                                <div class="text"><img src="overlay.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-5 ">
+                                    <div class="row">
+                                        <div class="list1">
+                                            <a href=""><img src="270x200.png" alt="" style="width:16rem;"></a>
+                                            <div class="overlay">
+                                                <div class="text"><img src="overlay.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="bg-transparent btn btn-block mt-5"><img src="viewmore.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section6>
+
+    <section7>
+
+    </section7>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</body>
+
+</html>
